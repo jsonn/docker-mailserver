@@ -32,6 +32,8 @@ ${ORANGE}DESCRIPTION${RESET}
 ${ORANGE}EXAMPLES${RESET}
     ${LWHITE}./setup.sh alias add alias@example.com recipient@example.com${RESET}
         Add the alias 'alias@example.com' for the mail account 'recipient@example.com'.
+    ${LWHITE}./setup.sh alias add alias2@example.com "target1@example.com, target2@example.com"${RESET}
+        Multiple recipients are separated by comma.
 
 ${ORANGE}EXIT STATUS${RESET}
     Exit status is 0 if command was successful. If wrong arguments are provided
